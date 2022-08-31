@@ -1,0 +1,35 @@
+/***General***/
+body {
+    width: 100vw;
+    font-family: 'Open Sans', sans-serif;
+    margin-inline: auto;
+}
+.container {
+    width: 100%;
+    max-width: 1280px;
+    padding: 0 20px;
+    margin-inline: auto;
+}
+section:not(.hero) {margin: 100px 0;}
+.section-header {
+    h2 {
+        display: block;
+        @include font-type-serif(35);
+        margin-bottom: 50px;
+        position: relative;
+        span {
+            color:$clr-primary;
+            margin-left: -5px;
+        }
+    }
+    p {@include font-type-sans(18);}
+}
+.section-header h2::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: $clr-primary;
+    margin-top: 16px;
+}

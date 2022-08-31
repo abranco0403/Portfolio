@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Alessandro Branco</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS Links-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="nav-container">
+        <nav class="nav">
+            <a href="index.html" class="nav-brand">
+                <img src="https://i.postimg.cc/kg3hXfV1/logo-portfolio.png" alt="Logo">
+            </a>
+            <!--Toggle Button-->
+            <div class="btn-toggle">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <!--******-->
+            <ul class="navbar-nav">
+                <li><a class="nav-link" href="#about">about me</a></li>
+                <li><a class="nav-link" href="#projects">portfolio</a></li>
+                <li><a class="nav-link" href="#contact">contact me</a></li>
+            </ul>
+            <button type="button" id="btn-resume" class="btn btn-resume">
+                Resume
+            </button>
+        </nav>
+        <!--Mobile Navigation-->
+        <div class="nav-mobile">
+            <div class="navbar-mobile-nav">
+                <ul class="navbar-mobile-links">
+                    <li><a class="nav-link" href="#about">about me</a></li>
+                    <li><a class="nav-link" href="#projects">portfolio</a></li>
+                    <li><a class="nav-link" href="#contact">contact me</a></li>
+                </ul>
+                <ul class="navbar-mobile-social active">
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-codepen"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--END NAV CONTAINER-->
+    <div class="container">
+        <!--Hero Section-->
+        <section aria-labelledby="hero-title" id="hero" class="hero js-scroll">
+            <header id="hero-title" class="hero-header">
+                <h1>
+                    Hi, my<br> name is <b>Alessandro.</b>
+                </h1>
+                <p>I'm a <b>front end developer</b> based in LA.</p>
+            </header>
+            <button class="btn btn-hero door" id="goToProjects">
+                Check out my projects
+            </button>
+        </section>
+        <!-- ABOUT SECTION START -->
+        <section aria-labelledby="about-title" id="about" class="about js-scroll">
+            <header class="section-header">
+                <h2 id="about-title">
+                    About me <span>.</span>
+                </h2>
+            </header>
+            <div class="about-row">
+                <div class="about-text">
+                    <p>
+                        Hello! My name is Alessandro and I'm' always looking for an opportunity to code, design and learn new things. Before I became a developer, I used to work as a math teacher and financial educator in private schools in Rio de Janeiro, Brazil. It was developing projects with my students that I discovered my passion for coding and design. After that, the interest that aroused as a hobby became the fuel needed to seek the opportunity to develop myself within the career of web developer.
+                    </p>
+                    <p>
+                        Here are a few technologies I’ve been working with recently:
+                    </p>
+                    <ul class="skills-list">
+                        <li>JavaScript</li>
+                        <li>React.JS</li>
+                        <li>Wordpress</li>
+                    </ul>
+                </div>
+                <div class="about-picture">
+                    <div>
+                        <img src="https://i.postimg.cc/vHRVYM53/File-000.jpg" alt="Alessandro Branco picture">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ABOUT SECTION - END -->
+        <!-- PROJECTS SECTION - START -->
+        <section aria-labelledby="projects-title" class="js-scroll" id="projects">
+            <header class="section-header">
+                <h2 id="projects-title">
+                    Some Things I've Built <span>.</span>
+                </h2>
+            </header>
+            <div class="card-container">
+                <div class="card-row-top">
+                    <!--card- start-->
+                    <div class="card">
+                        <header class="card-title">
+                            <h3>Project Name</h3>
+                        </header>
+                        <div class="card-image">
+                            <div class="card-img-top"></div>
+                            <div class="overlay">
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JS</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-info">
+                                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <div class="card-links">
+                                <a class="icons" href="#" aria-label="Github">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a class="icons ms-3" href="#" aria-label="View Project">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--card- end-->
+                    <!--card- start-->
+                    <div class="card">
+                        <div class="card-title">
+                            <h3>Project Name</h3>
+                        </div>
+                        <div class="card-image">
+                            <div class="card-img-top"></div>
+                            <div class="overlay">
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JS</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-info">
+                                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <div class="card-links">
+                                <a class="icons" href="#" aria-label="Github">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a class="icons ms-3" href="#" aria-label="View Project">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--card- end-->
+                    <!--card- start-->
+                    <div class="card">
+                        <header class="card-title">
+                            <h3>Project Name</h3>
+                        </header>
+                        <div class="card-image">
+                            <div class="card-img-top"></div>
+                            <div class="overlay">
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JS</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-info">
+                                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <div class="card-links">
+                                <a class="icons" href="#" aria-label="Github">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a class="icons ms-3" href="#" aria-label="View Project">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--card- end-->
+                </div>
+                <!--first row - end-->
+                <!--second row - start-->
+                <div class="card-row-bottom">
+                    <!--card- start-->
+                    <div class="card">
+                        <header class="card-title">
+                            <h3>Project Name</h3>
+                        </header>
+                        <div class="card-image">
+                            <div class="card-img-top"></div>
+                            <div class="overlay">
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JS</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-info">
+                                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <div class="card-links">
+                                <a class="icons" href="#" aria-label="Github">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a class="icons ms-3" href="#" aria-label="View Project">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--card- end-->
+                    <!--card- start-->
+                    <div class="card">
+                        <header class="card-title">
+                            <h3>Project Name</h3>
+                        </header>
+                        <div class="card-image">
+                            <div class="card-img-top"></div>
+                            <div class="overlay">
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JS</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-info">
+                                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <div class="card-links">
+                                <a class="icons" href="#" aria-label="Github">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a class="icons ms-3" href="#" aria-label="View Project">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--card- end-->
+                    <!--card- start-->
+                    <div class="card">
+                        <header class="card-title">
+                            <h3>Project Name</h3>
+                        </header>
+                        <div class="card-image">
+                            <div class="card-img-top"></div>
+                            <div class="overlay">
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JS</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-info">
+                                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <div class="card-links">
+                                <a class="icons" href="#" aria-label="Github">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a class="icons ms-3" href="#" aria-label="View Project">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--card- end-->
+                </div>
+                <!-- second row - end-->
+            </div>
+            <!-- card container - end -->
+        </section>
+        <!-- PROJECTS SECTION - END -->
+        <!-- CONTACT SECTION - START -->
+        <section aria-labelledby="contact-title" id="contact" class="contact js-scroll">
+            <header class="section-header">
+                <h2 id="contact-title">
+                    Get in touch <span>.</span>
+                </h2>
+                <p>
+                    Want to work together or have any questions?
+                </p>
+                <a href="#" class="contact-mail">
+                    <i class="far fa-envelope fa-sm"></i>
+                    abranco.dev@gmail.com
+                </a>
+            </header>
+            <div class="form-container">
+                <form>
+                    <!-- Name input -->
+                    <div class="form-row">
+                        <div class=" form-col-6 form-control">
+                            <label for="given-name">Name</label>
+                            <input type="text" id="name" class="form-control" />
+                            <div class="form-message-error">
+                                <p>
+                                    <span>
+                                        <i class="fa-solid fa-triangle-exclamation"></i>
+                                    </span>
+                                    Please enter your name
+                                </p>
+                            </div>
+                        </div>
+                        <div class="form-col-6 form-control">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" />
+                            <div class="form-message-error">
+                                <p>
+                                    <span>
+                                        <i class="fa-solid fa-triangle-exclamation"></i>
+                                    </span>
+                                    Enter in the format: name@example.com
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Subject input-->
+                    <div class="form-control">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject">
+                    </div>
+                    <!-- Message input -->
+                    <div class="form-control">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="6"></textarea>
+                    </div>
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-contact">
+                        Send message!
+                    </button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <!-- CONTACT SECTION - END -->
+    <!--FOOTER - START-->
+    <footer class="footer-container">
+        <div class="footer">
+            <ul class="footer-links">
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-codepen"></i>
+                    </a>
+                </li>
+            </ul>
+            <p>Alessandro Branco &#169 2022</p>
+        </div>
+    </footer>
+    <!--FOOTER END-->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

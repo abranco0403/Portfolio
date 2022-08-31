@@ -1,0 +1,193 @@
+/*Toggle button and sidebar*/
+@media (min-width: 350px) and (max-width: 768px) {
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    .nav-brand {
+        font: normal bold 22px/1.5 'Open Sans', sans-serif;
+    }
+    .navbar-nav {
+        display: none;
+    }
+    .btn-resume {
+        display: none;
+    }
+}
+/***Toggle button***/
+@media (min-width: 769px) {
+    .btn-toggle, 
+    .nav-mobile {
+        display: none;
+        margin-left: 20px;
+    }
+}
+
+/***Hero Section***/
+@media (min-width: 350px) and (max-width: 768px) {
+    .nav-mobile.open .navbar-mobile-nav {
+        background-color: #000000;
+        z-index: 100;
+    }
+}
+/***About Section***/
+@media (min-width: 350px) and (max-width: 768px) {
+    .section-header {
+        font-size:30px;
+    }
+    .about-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .about-text {
+        width: 100%;
+    }
+    .about-text p {
+        font: normal 16px/1.5 'Open Sans', sans-serif;
+    }
+    .about-text p + p {
+        margin-top: 16px;
+    }
+    .about-text .skills-list {
+        margin-top: 10px;
+    }
+    .about-text .skills-list li {
+        margin: 10px 0 0 20px;
+        list-style: square;
+    }
+    .about-picture {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .about-picture img {
+        border: 1px solid red;
+        display: block;
+        border-radius: 50%;
+        width: 300px;
+        max-width: 100%;
+    }
+}
+/***Projects Section***/
+@media (min-width: 350px) and (max-width: 650px) {
+    .card-row-top {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+    }
+    .card + .card {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .card-row-bottom {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+      .icons:nth-last-child(1) {
+        margin-left: 10px;
+      }
+}
+
+/***Contact Section***/
+@media (min-width: 350px) and (max-width: 650px) {
+    .contact {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .header-container {
+        width: 100%;
+    }
+    .header-container p {
+        font: normal 16px 'Open Sans', sans-serif;
+    }
+    .contact-mail {
+        margin-top: 10px;
+    }
+    .contact-mail span i {
+        font-size: 16px;
+    }
+    .contact-mail a {
+        font: normal bold 14px 'Open Sans', sans-serif;
+        display: inline-block;
+    }
+    .form-container {
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+
+/***Footer***/
+@media (min-width: 350px) and (max-width: 650px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .footer-links li a {
+        margin: 0;
+    }
+    .footer p {
+        margin-top: 10px;
+    }
+}
+
+
+@media (min-width: 350px) and (max-width: 650px) {
+    .nav,
+    .container {
+        padding: 0 30px;
+    }
+    .hero h1 {
+        font: normal 35px/1 'Open Sans', sans-serif;
+        color: lightcoral;
+    }
+    .hero p {
+        font: normal 16px/1.5 'Open Sans', sans-serif;
+        margin: 30px 0;
+    }
+    .btn-hero {
+        width: 180px;
+        height: 50px;
+        font-size: 12px;
+    }
+}
+@media (min-width: 651px) and (max-width: 768px) {
+    .hero h1 {
+        font: normal 50px/1 'Open Sans', sans-serif;
+        color: lightcoral;
+    }
+    .hero p {
+        font: normal 20px/1.5 'Open Sans', sans-serif;
+        margin: 30px 0;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+     .hero h1 {
+        font: normal 60px/1 'Open Sans', sans-serif;
+        color: lightcoral;
+    }
+    .hero p {
+        font: normal 20.4 px/1.5 'Open Sans', sans-serif;
+        margin: 30px 0;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+}
+/* Medium devices (tablets, 768px and up) */
+/* Large devices (desktops, 992px and up) */
+/* X-Large devices (large desktops, 1200px and up) */

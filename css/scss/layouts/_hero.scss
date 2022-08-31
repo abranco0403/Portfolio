@@ -1,0 +1,14 @@
+.hero {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero-header {
+    h1 {@include font-type-serif(70);}
+    p {
+        @include font-type-sans(24);
+        margin: 30px 0;
+    }
+}

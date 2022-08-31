@@ -1,0 +1,102 @@
+.resume-container {
+    width: 100vw;
+    height: 100vh;
+}
+.resume {
+    max-width: 1280px;
+    width: 100%;
+    height: 100%;
+    margin-inline: auto;
+}
+// Header
+.resume-header {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.resume-title {
+    width: calc(60% - 20px);
+    color: $clr-dark;
+    h1 {@include font-type-serif(50);}
+    p {@include font-type-sans(18);}
+}
+.resume-header-info {
+    width: calc(40% - 20px);
+    li {
+        @include font-type-sans(14);
+        color: $clr-darkest;
+        &+li {margin-top: 5px;}
+    }
+    a {
+        cursor:pointer;
+        @include font-type-sans(14);
+        color: $clr-darkest;
+        transition: all ease-in-out 0.1s;
+        &:nth-child(1):hover {
+            text-decoration: underline;
+            color: $clr-primary;
+        }
+    }
+}
+// Body
+.resume-body {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.topic-header {
+    @include font-type-sans(24);
+    font-weight: bold;
+    color: $clr-primary;
+    margin: 10px 0;
+}
+.subtopic-header {
+    margin-bottom: 20px;
+    h3 {
+        @include font-type-sans(18);
+        color: $clr-darkest;
+        margin: 5px 0;
+    }
+    h4 {
+        @include font-type-sans(14);
+        font-weight: 600;
+        text-transform: uppercase;
+        color: $clr-light-100;
+        margin: 5px 0;
+    }
+    p {
+        @include font-type-sans(16);
+        color: $clr-darkest;
+    }
+}
+.subtopic-header {
+    ul {
+        li + li {
+            margin-top: 10px;
+        }
+    }
+}
+.content-left {
+    width: calc(60% - 20px);
+}
+.content-right {
+    width: calc(40% - 20px)
+}
+//Footer
+.resume-footer {
+    max-width: 1280px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    a {
+        cursor: pointer;
+        @include font-type-sans(14);
+        font-weight: bold;
+        color: $clr-darkest;
+        text-decoration:underline;
+    }
+}

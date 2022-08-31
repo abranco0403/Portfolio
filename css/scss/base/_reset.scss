@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {list-style: none;}
+a {
+    display: block;
+    text-decoration: none;
+}
+img {
+    display: block;
+    max-width: 100%;
+    object-fit: fill;
+}
+ button, input, textarea {
+    display: block;
+    outline: none;
+    border: none;
+}
+ input:focus,
+ textarea:focus {
+    outline: none;
+ }

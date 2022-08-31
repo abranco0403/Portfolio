@@ -1,0 +1,37 @@
+.about {
+    width: 100%;
+    margin-top: 50px;
+}
+.about-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.about-text {
+    width: calc(65% - 10px);
+    p {
+        @include font-type-sans(18);
+        & + p {margin-top: 16px;}
+    }
+}
+ .skills-list {
+    margin-top: 10px;
+    li {
+        margin: 10px 0 0 20px;
+        list-style: square;
+    }
+}
+.about-picture {
+    width: calc(35% - 10px);
+    img {
+        display: block;
+        border-radius: 50%;
+        min-width: 250px;
+        width: 350px;
+        max-width: 100%;
+        border: 4px solid $clr-primary;
+        border-radius: 50%;
+    }
+}
